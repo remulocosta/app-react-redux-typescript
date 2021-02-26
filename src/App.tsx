@@ -3,6 +3,7 @@
  */
 import React from 'react';
 import { Provider } from  'react-redux';
+import Catalog from './components/Catalag';
 import store from './store';
 
 
@@ -20,7 +21,7 @@ function App() {
 
     // provider redux store
     <Provider store={store}>
-      <h1>Projeto redux</h1>
+      <Catalog />
     </Provider>
   );
 }
