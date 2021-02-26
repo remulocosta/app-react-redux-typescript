@@ -1,6 +1,13 @@
 {
   "name": "react-redux",
   "version": "0.1.0",
+  "description": "Application test with react, typescript redux",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "Remulo Costa <remulo.costa@gmail.com>",
+  "license": "MIT",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
@@ -39,5 +46,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "devDependencies": {}
 }
