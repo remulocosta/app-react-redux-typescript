@@ -2,6 +2,7 @@
  * IMPORTS
  */
 import React from 'react'
+import { useSelector } from 'react-redux';
 
 
 /**
@@ -11,11 +12,14 @@ import React from 'react'
  /**
   *  I render catalog component
   */
- const Catalog: React.FC = () => {
-     return (
-         <h1>Catalog</h1>
-     )
- }
+const Catalog: React.FC = () => {
+    const catalog = useSelector(state => state);
+
+    console.log(catalog)
+    return (
+        <h1>Catalog</h1>
+    )
+}
 
 
  /**
