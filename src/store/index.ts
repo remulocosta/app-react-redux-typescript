@@ -2,6 +2,7 @@
  * IMPORT
  */
 import { createStore } from 'redux';
+import rootReducer from '../modules/rootReducer';
 
 
 /**
@@ -11,7 +12,7 @@ import { createStore } from 'redux';
 /**
  *  I create store
  */
- const store = createStore(() => []);
+ const store = createStore(rootReducer);
 
 
  /**
