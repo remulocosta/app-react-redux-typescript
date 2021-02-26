@@ -2,6 +2,8 @@
  * IMPORTS
  */
 import React from 'react';
+import { Provider } from  'react-redux';
+import store from './store';
 
 
 /**
@@ -15,7 +17,11 @@ import React from 'react';
  */
 function App() {
   return ( 
+
+    // provider redux store
+    <Provider store={store}>
       <h1>Projeto redux</h1>
+    </Provider>
   );
 }
 
